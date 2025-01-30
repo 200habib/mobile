@@ -3,194 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Mobile </title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <style>
-      p {
-        text-align: justify;
-      }
-    </style>
+    <title>Mobile Revolution</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link rel="icon" href="https://cdn3.iconfinder.com/data/icons/logos-brands-3/24/logo_brand_brands_logos_sketch_app-256.png">
 </head>
-<body>
+<body class="bg-gray-100">
 
+<header class="bg-indigo-800 text-white p-6">
+    <div class="container mx-auto flex justify-between items-center">
+        <a href="#" class="text-3xl font-bold">
+            <img src="https://cdn0.iconfinder.com/data/icons/brands-colored-2/204/feedburner-social-network-brand-logo-512.png" width="30px" alt="Logo" />
 
-  <header><!-- start -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"> 
-            <img src="https://cdn0.iconfinder.com/data/icons/brands-colored-2/204/feedburner-social-network-brand-logo-512.png" width="30px" logo alt="" ></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#home">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#gallery">gallery</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">contact</a>
-              </li>
-                
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
+        </a>
+        <div class="flex space-x-6">
+            <a href="#home" class="hover:text-indigo-300">Home</a>
+            <a href="#gallery" class="hover:text-indigo-300">Gallery</a>
+            <a href="#contact" class="hover:text-indigo-300">Contact</a>
         </div>
-      </nav>
-      <!-- end nav -->
-      <h1 class="text-center mb-4 mt-4"> Mobile First</h1>
-      
-      
-    </header>
-
-    <!-- start main -->
-    <main class="container-fluid border">
-      <section class="mb-4 mt-4"  id="home">
-
-        <h2 class="mb-4 mt-4">home</h2>
-        <!-- Carousel -->
-        <div id="carouselExampleCaptions" class="carousel slide">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="https://media.istockphoto.com/id/1411610324/fr/photo/exemple-de-texte-de-code-source-informatique-du-langage-de-programmation-python-gros-plan-sur.jpg?s=2048x2048&w=is&k=20&c=XVAXe_dZdkZ3mTKWQBaGNXLgC0E6z_VqC2FqtgO0Ci8=" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>Some representative placeholder content for the first slide.</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="https://media.istockphoto.com/id/1413837275/fr/photo/arri%C3%A8re-plan-de-conception-informatique-abstrait-avec-une-surface-de-grille-triangulaire.jpg?s=2048x2048&w=is&k=20&c=iTGCMDOpCgaGiHgQTnnLMfwI1nSo8U2XxQfGKKPsu1I=" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>Some representative placeholder content for the second slide.</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="https://media.istockphoto.com/id/1413990928/fr/photo/concept-abstrait-de-conception-assist%C3%A9e-par-ordinateur-avec-du-code-de-langage-de.jpg?s=2048x2048&w=is&k=20&c=O1XDA8rkEbYithyj4s2q9OilQdNFyp_8vaB2961OVJQ=" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <p>Some representative placeholder content for the third slide.</p>
-              </div>
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-        <!--  -->
-        <h3>what a mobile word</h3>
-        <p>Un développeur web est un informaticien spécialisé dans la programmation ou expressément impliqué dans le développement des applications du web, ou des applications qui sont exécutées à partir d'un serveur web sur un navigateur web et qui utilisent le protocole HTTP comme vecteur de transmission de l'information.</p>
-      </section>
-
-      <!-- section gallery -->
-
-      <section class="mb-4 mt-4 row" id="gallery">
-        <a href="gallery"></a>
-        <h2 class="mb-4 mt-4">gallery</h2>
-
-        <!-- nuovi img -->
-        
-        <div class="col-12 col-md-4 text-center"><div class="card mb-4" >
-          <img src="https://media.istockphoto.com/id/1404630818/fr/vectoriel/grille-de-maillage-de-sph%C3%A8re-3d-cadre-m%C3%A9tallique-globe-net.jpg?s=2048x2048&w=is&k=20&c=6QXmLyfHLn_XJrewgDTZkxE0fc2EKA4lYzN7_n33mmM=" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-dark">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-md-4 text-center"><div class="card mb-4" >
-        <img src="https://media.istockphoto.com/id/1413837275/fr/photo/arri%C3%A8re-plan-de-conception-informatique-abstrait-avec-une-surface-de-grille-triangulaire.jpg?s=2048x2048&w=is&k=20&c=iTGCMDOpCgaGiHgQTnnLMfwI1nSo8U2XxQfGKKPsu1I=" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-dark">Go somewhere</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-12 col-md-4 text-center"><div class="card mb-4" >
-      <img src="https://media.istockphoto.com/id/1181480931/fr/vectoriel/contexte-cyber-bleu-des-chiffres-binaires-de-code.jpg?s=2048x2048&w=is&k=20&c=ztj4xXXmugqjczRWLmUFyp2ho9Sg1fqXybOp8_ewgYE=" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-dark">Go somewhere</a>
-      </div>
-    </div>
-  </div>
-
-        <!-- img -->
-        <p>Les applications web modernes contiennent souvent trois niveaux ou plus, et en fonction de la taille de l'équipe dans laquelle un développeur travaille, il ou elle peut se spécialiser sur un ou plusieurs de ces niveaux - ou peut jouer un rôle davantage interdisciplinaire4. Par exemple, dans une équipe de deux personnes, un développeur peut se concentrer sur les technologies envoyées au client tels que HTML, CSS, JavaScript. Pendant ce temps, l'autre développeur peut se concentrer sur l'interaction entre les frameworks côté serveur, le serveur web et le système de base de données. De plus, selon la taille de leur organisation, les développeurs peuvent travailler en étroite collaboration avec un rédacteur de contenu, un conseiller en marketing, un designer UX, un concepteur web, un producteur web, un chef de projet, un architecte logiciel, ou un administrateur de base de données - ou ils peuvent être chargés de tâches telles que la conception web et la gestion de projet eux-mêmes.
-
-        </p>
-      </section>
-      <section class="mb-4 mt-4" id="contact">
-        <a href="contact"></a>
-        <h2 class="mb-4 mt-4"> contact</h2>
-        <p>Les développeurs web peuvent travailler dans différents types d'organisations, y compris les grandes sociétés et les gouvernements, les petites et moyennes entreprises. Certains développeurs web travaillent pour un organisme comme employés à temps plein, tandis que d'autres peuvent travailler comme des consultants indépendants ou comme sous-traitants pour une agence d'emploi, une agence web ou une ESN. Ils peuvent être salariés ou bien freelances.
-
-          Les développeurs web interviennent à la fois côté serveur et au niveau front-end. Cela implique généralement la mise en œuvre de tous les éléments visuels que les utilisateurs peuvent voir et utiliser dans l'application web, ainsi que tous les services web et API qui sont nécessaires pour alimenter le front-end.</p>
-      </section>
-
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89077.13768191877!2d4.8351301!3d45.7579507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4ea516ae88797%3A0x408ab2ae4bb21f0!2sLyon!5e0!3m2!1sfr!2sfr!4v1705069949357!5m2!1sfr!2sfr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"  ></iframe>
-
-    </main>
-    
-    
-
-
-    <!-- start footer -->
-
-     <footer class="mt-4 p-4 bg-dark text-white">
-      
-      <div class="col-md-6">
-        <h4>Contactez-nous</h4>
-        <form action="#" method="post">
-          <div class="form-group">
-            <label for="nom">Nom :</label>
-            <input type="text" class="form-control" id="nom" name="nom" required>
-          </div>
-          <div class="form-group">
-            <label for="email">E-mail :</label>
-            <input type="email" class="form-control" id="email" name="email" required>
-          </div>
-          <div class="form-group">
-            <label for="message">Message :</label>
-            <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary">Envoyer le message</button>
+        <form class="flex">
+            <input type="search" class="p-2 rounded-l-lg border border-gray-300" placeholder="Search">
+            <button type="submit" class="bg-indigo-500 text-white p-2 rounded-r-lg">Search</button>
         </form>
-      </div>
     </div>
-  </div>
+</header>
 
+<main class="container mx-auto p-8">
+    <!-- Home Section -->
+    <section id="home" class="mb-16">
+        <h2 class="text-4xl font-bold text-center mb-8">The Mobile Revolution</h2>
+        <p class="text-lg text-center mb-8">Smartphones and mobile technology have become an integral part of our lives. From communication to shopping, entertainment, and education, mobile devices have reshaped the way we interact with the world. Let’s dive deeper into this revolution!</p>
 
-      
-      <p class="text-center">&copy; CCI</p>
+    <!-- Gallery Section -->
+    <section id="gallery" class="mb-16">
+        <h2 class="text-3xl font-bold text-center mb-8">Mobile World Gallery</h2>
+        <p class="text-lg text-center mb-8">Explore how mobile devices and apps have changed our lives through this curated gallery.</p>
 
-    </footer>
-    
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Card 1 -->
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="https://media.istockphoto.com/id/1413837275/fr/photo/arri%C3%A8re-plan-de-conception-informatique-abstrait-avec-une-surface-de-grille-triangulaire.jpg?s=2048x2048&w=is&k=20&c=iTGCMDOpCgaGiHgQTnnLMfwI1nSo8U2XxQfGKKPsu1I=" class="w-full h-56 object-cover" alt="Mobile App">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold">Mobile Apps</h3>
+                    <p>Discover the power and potential of mobile applications in today’s world.</p>
+                </div>
+            </div>
 
-        
+            <!-- Card 2 -->
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="https://media.istockphoto.com/id/1181480931/fr/vectoriel/contexte-cyber-bleu-des-chiffres-binaires-de-code.jpg?s=2048x2048&w=is&k=20&c=ztj4xXXmugqjczRWLmUFyp2ho9Sg1fqXybOp8_ewgYE=" class="w-full h-56 object-cover" alt="Smartphones">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold">Smartphone Evolution</h3>
+                    <p>From basic phones to the powerful smartphones of today, see the evolution.</p>
+                </div>
+            </div>
 
-       
+            <!-- Card 3 -->
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="https://media.istockphoto.com/id/1404630818/fr/vectoriel/grille-de-maillage-de-sph%C3%A8re-3d-cadre-m%C3%A9tallique-globe-net.jpg?s=2048x2048&w=is&k=20&c=6QXmLyfHLn_XJrewgDTZkxE0fc2EKA4lYzN7_n33mmM=" class="w-full h-56 object-cover" alt="Mobile Connectivity">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold">Mobile Connectivity</h3>
+                    <p>Explore how mobile technology has revolutionized global communication.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- Contact Section -->
+    <section id="contact" class="mb-16">
+        <h2 class="text-3xl font-bold text-center mb-8">Get in Touch</h2>
+        <p class="text-lg text-center mb-8">Interested in creating a mobile app or learning more about the mobile revolution? Reach out to us!</p>
+
+        <div class="max-w-md mx-auto bg-white p-6 rounded-lg shadow-lg">
+            <form>
+                <input type="text" class="w-full p-2 mb-4 border border-gray-300 rounded-lg" placeholder="Name" required>
+                <input type="email" class="w-full p-2 mb-4 border border-gray-300 rounded-lg" placeholder="Email" required>
+                <textarea class="w-full p-2 mb-4 border border-gray-300 rounded-lg" placeholder="Message" rows="4" required></textarea>
+                <button type="submit" class="w-full bg-indigo-500 text-white p-2 rounded-lg">Send Message</button>
+            </form>
+        </div>
+    </section>
+</main>
+
+<footer class="bg-indigo-800 text-white p-6">
+    <div class="container mx-auto text-center">
+        <p>&copy; 2025 Mobile Revolution. All rights reserved.</p>
+    </div>
+</footer>
+
 </body>
 </html>
